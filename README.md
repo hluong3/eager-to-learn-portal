@@ -5,7 +5,7 @@ https://learn.microsoft.com/en-us/partner-center/marketplace/azure-ad-transactab
 https://learn.microsoft.com/en-us/partner-center/marketplace/partner-center-portal/pc-saasfulfillment-life-cycle
 https://learn.microsoft.com/en-us/partner-center/marketplace/partner-center-portal/pc-saasfulfillment-webhook
 
-# App Registrations
+## App Registrations
 You will create 2 app registrationa in the Azure portal. It will be single-tenant and multi-tenant.
 ### Create a single-tenant App Registration
 You will create an app registration in the Azure portal. It will be single-tenant and used to connect to the SaaS API.
@@ -16,7 +16,7 @@ You will create an app registration in the Azure portal. It will be single-tenan
 4. For example, use  `eager-to-learn-single-tenant` as the name of this app registration.
 5. At the bottom of the page, click the **Register** button.
 
-### Add a secret
+#### Add a secret
 
 Now you will add a secret to the app registration. Make sure to copy and paste the secret value somewhere you can access it later.
 
@@ -27,7 +27,7 @@ Now you will add a secret to the app registration. Make sure to copy and paste t
     2. Choose an expiration date. The 6-month default should be fine.
 4. Copy the **Value** of the secret and paste it somewhere you can easily access it later.
 
-## Creating a multi-tenant App Registration
+### Creating a multi-tenant App Registration
 
 Following steps are how to create a multi-tenant app registration in the Azure portal to authenticate users coming to your landing page.
 
@@ -35,7 +35,7 @@ Following steps are how to create a multi-tenant app registration in the Azure p
 2. Under **Supported account types**, select the option: **Accounts in any organizational directory (Any Azure AD directory - Multitenant)**.
 3. At the bottom of the page, click the **Register** button.
 
-### Create a client secret
+#### Create a client secret
 
 1. Create a client secret for this app registration.
 2. Copy the **Value** of the secret and paste it somewhere you can easily access it later.
@@ -127,4 +127,4 @@ Click the **Save** button at the top of the screen.
 
 > **This is good!** You are seeing this message because you aren't coming to the landing page through the Azure portal and no marketplace purchase token is being passed. To finish your configuration, we need to configure Partner Center to be aware of the landing page.
 
-> **You can prefer to these tutorial videos for configuring:** [URL](http://nextcloud.longdpt.com/s/m3nZ5fGdntfEMDL/download)
+## **You can prefer to these tutorial videos for configuring:** [URL](http://nextcloud.longdpt.com/s/m3nZ5fGdntfEMDL)
