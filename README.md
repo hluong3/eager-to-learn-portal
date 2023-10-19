@@ -127,4 +127,4 @@ Click the **Save** button at the top of the screen.
 
 > **This is good!** You are seeing this message because you aren't coming to the landing page through the Azure portal and no marketplace purchase token is being passed. To finish your configuration, we need to configure Partner Center to be aware of the landing page.
 
-
+> **You can prefer to these tutorial videos for configuring:** [URL](http://nextcloud.longdpt.com/s/m3nZ5fGdntfEMDL/download)
